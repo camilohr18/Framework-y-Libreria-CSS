@@ -1,0 +1,37 @@
+body{
+    background-image: url("../img/guitar.jpg");
+    background-repeat: repeat;
+    background-size: cover;
+}
+.cabecera{
+    color: #A5D6A7;
+}
+.img-responsiva{
+    width: 80%;
+    max-height: 200px;
+    max-width: 200px;
+}
+.icono {
+    height: 30px;
+    height: 2.2rem;
+    width: 30px;
+    width: 2.2rem;
+}
+.btn1{
+    background-color: #9fcdff;
+    fill: #0e1a25;
+}
+.btn1:hover{
+    fill: white;
+}
+.btn2{
+    background-color: #9fcdff;
+    color: #0a0a0a;
+}
+.btn2:hover{
+    background-color: #f9a825;
+    color: white;
+}
+.txc{
+    color: white;
+}
