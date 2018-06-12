@@ -1,0 +1,32 @@
+@font-face {
+    font-family: Andallan;
+    src: url('../fonts/Andallan.otf') format('otf');
+}
+body{
+    background: url("../img/fondo.jpg") no-repeat;
+    background-color: #ffd54f;
+    background-attachment: fixed;
+    background-position: center bottom;
+    background-size: 100vw 80vh;
+}
+.icono{
+    color: white;
+}
+.img-logo{
+    max-width: 150px;
+    max-height: 150px;
+    border-radius: 15px;
+    float: right;
+}
+.img-card{
+    max-height: 300px;
+}
+.text-justify{
+    text-align: justify;
+}
+.img-retrato{
+    max-height: 150px;
+}
+.slogan{
+    font-family: 'Allura',cursive;
+}

@@ -2,9 +2,132 @@
 <html lang="en">
 <head>
     <meta charset="UTF-8">
-    <title>Blog de Viajes</title>
+    <title>Blog de Turismo</title>
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximun-scale=1.0">
+    <meta name="author" content="Camilo Ramos">
+    <link href="https://fonts.googleapis.com/icon?family=Material+Icons" rel="stylesheet">
+    <link type="text/css" rel="stylesheet" href="css/materialize.min.css"  media="screen,projection"/>
+    <link rel="stylesheet" href="css/estilos.css">
+    <link rel="stylesheet" href="css/materialize-social.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+    <link href="https://fonts.googleapis.com/css?family=Allura" rel="stylesheet">
 </head>
 <body>
-
+<div>
+    <header class="row" aria-label="Seccion de Cabecera">
+        <div class="col l3 s12">
+                <img src="img/logo1.jpg" class="img-logo" alt="Imagen de Logo">
+        </div>
+        <div class="col l9 s12" aria-label="Seccion de Menu">
+            <div class=" right-align">
+                <a class="btn-small waves-effect waves-light" href="#">
+                    <i class="material-icons left">home</i><span class="hide-on-med-and-down">INICIO</span></a>
+                <a class="btn-small waves-effect waves-light" href="#">
+                    <i class="material-icons left">location_on</i><span class="hide-on-med-and-down">ESTUVE EN..</span></a>
+                <a class="btn-small waves-effect waves-light" href="#">
+                    <i class="material-icons left">favorite</i><span class="hide-on-med-and-down">FAVORITOS</span></a>
+                <a class="btn-small waves-effect waves-light" href="#">
+                    <i class="material-icons left">sms_failed</i><span class="hide-on-med-and-down">RECOMENDACIONES</span></a>
+            </div>
+            <div class="col l12 s12"><h4 class="center-on-small-only white-text slogan">Viaja hoy, mañana sera tarde....</h4></div>
+        </div>
+    </header>
+    <section class="row" aria-label="Seccion de Fotos">
+        <div class="col l1 center-align hide-on-med-and-down">
+            <div class="row"><a href="#"><i class="fab fa-facebook-square medium icono"></i></a></div>
+            <div class="row"><a href="#"><i class="fab fa-youtube medium icono"></i></a></div>
+            <div class="row"><a href="#"><i class="fab fa-instagram medium icono"></i></a></div>
+            <div class="row"><a href="#"><i class="fab fa-twitter-square medium icono"></i></a></div>
+            <div class="row"><a href="#"><i class="fab fa-pinterest-square medium icono"></i></a></div>
+        </div>
+        <div class="col l11 s12">
+            <div class="col l4 s12">
+                <div class="row"><img src="img/logo1.jpg" class="responsive-img z-depth-3"></div>
+                <div class="row"><img src="img/fondo.jpg" class="responsive-img z-depth-3"></div>
+            </div>
+            <div class="col l3 s12">
+                <img src="img/logo1.jpg" class="responsive-img z-depth-3">
+                <img src="img/fondo1.jpg" class="responsive-img z-depth-3">
+                <img src="img/logo1.jpg" class="responsive-img z-depth-3">
+            </div>
+            <div class="col l5 s12">
+                <img src="img/logo1.jpg" class="responsive-img z-depth-3">
+                <img src="img/fondo1.jpg" class="responsive-img z-depth-3">
+            </div>
+        </div>
+    </section>
+    <section class="row" aria-label="Seccion de Post">
+        <div class="col l8 s12">
+            <div class="card">
+                <div class="card-content">
+                    <div class="card-image">
+                        <img src="img/logo1.jpg" class="img-card">
+                    </div>
+                    <span class="card-title">Viaje a Venecia</span>
+                    <div class="chip">12 de Mayo 2018 <i class="material-icons">date_range</i></div>
+                    <div class="chip">Venecia, Italia<i class="material-icons">location_on</i></div>
+                    <p class="text-justify flow-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam enim, vel pulvinar sem molestie in.
+                        Morbi vel iaculis libero, nec tincidunt diam. Donec rhoncus ut massa a placerat. Integer non euismod magna.
+                        Sed hendrerit turpis vitae massa ultrices scelerisque. Morbi eros lorem, sodales in nisi nec, posuere blandit est.
+                        Cras a nisi eget orci gravida fermentum. Phasellus ante odio, lacinia eu mollis at, euismod vel quam. Praesent imperdiet
+                        semper metus, at molestie neque ultricies non. Cras quis magna metus. Nulla eget ligula vestibulum, vestibulum massa eget,
+                        mattis mi. Praesent interdum eros quis faucibus pretium. Nulla facilisi. Morbi porttitor ornare ornare. Vestibulum sed turpis
+                        ultricies, imperdiet mi a, auctor orci</p>
+                    <p class="text-justify flow-text">
+                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam enim, vel pulvinar sem molestie in.
+                        Morbi vel iaculis libero, nec tincidunt diam. Donec rhoncus ut massa a placerat. Integer non euismod magna.
+                        Sed hendrerit turpis vitae massa ultrices scelerisque.
+                    </p>
+                </div>
+                <div class="card-stacked">
+                <form class="col l12 s12 cyan">
+                    <div class="row">
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix icono">account_circle</i>
+                            <input id="nombre" type="text" class="white-text">
+                            <label for="nombre" class="white-text">Nombre</label>
+                        </div>
+                        <div class="input-field col s6">
+                            <i class="material-icons prefix icono">email</i>
+                            <input id="correo" type="email" class="validate white-text">
+                            <label for="correo" class="white-text">Email</label>
+                        </div>
+                        <div class="input-field col s12">
+                            <i class="material-icons prefix icono">chat</i>
+                            <textarea id="comentario" class="materialize-textarea white-text"></textarea>
+                            <label for="comentario" class="white-text">Comentario..</label>
+                        </div>
+                        <div class="center-align">
+                            <a class="btn-small waves-effect waves-light" type="submit">
+                                <i class="material-icons left">flight_takeoff</i>
+                                <span>Enviar</span>
+                            </a>
+                        </div>
+                    </div>
+                </form>
+                </div>
+            </div>
+        </div>
+        <div class="col s12 l4" aria-label="Seccion de Autor">
+            <div class="card">
+                <div class="center-align">
+                    <img src="img/logo1.jpg" class="img-retrato responsive-img circle">
+                </div>
+                <div class="card-content">
+                    <h5 class="center-align">Perfil del Autor</h5>
+                    <div class="divider"></div>
+                    <p class="center-align">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam enim, vel
+                        pulvinar sem molestie in. Morbi vel iaculis libero, nec tincidunt diam. Donec rhoncus ut massa a placerat.
+                        Integer non euismod magna.Sed hendrerit turpis vitae massa ultrices scelerisque. Morbi eros lorem, sodales in nisi nec,
+                        posuere blandit est.
+                    </p>
+                </div>
+            </div>
+        </div>
+    </section>
+</div>
+<script type="text/javascript" src="https://code.jquery.com/jquery-2.1.1.min.js"></script>
+<script type="text/javascript" src="js/materialize.min.js"></script>
 </body>
 </html>
