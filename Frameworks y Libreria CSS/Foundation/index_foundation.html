@@ -4,6 +4,7 @@
     <meta charset="UTF-8">
     <title>Blog de Comida</title>
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="author" content="Camilo Ramos">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
@@ -11,7 +12,7 @@
 </head>
 <body>
 <div class="grid-container">
-    <header class="grid-x">
+    <header class="grid-x" aria-label="Seccion de Cabecera">
         <div class="cell small4 large-4 colorH">
             <h1 class="text-center">Attraversiamo</h1>
             <p class="text-right"><em>..probando el mundo en cada bocado...</em></p>
@@ -19,7 +20,7 @@
         <div class="cell small-8 large-8 colorH hide-for-small-only"></div>
     </header>
     <div class="grid-x">
-        <aside class="large-4 grid-padding-x colorN small-12">
+        <aside class="large-4 grid-padding-x colorN small-12" id="barra_lateral" aria-label="Seccion de Navegacion" >
             <div class=" grid-y cell small-12 large-12 colorimg">
                 <div class="cell large-4">
                 <div class="title-bar" data-responsive-toggle="menu" data-hide-for="large">
@@ -86,8 +87,8 @@
                 </ul>
             </div>
         </aside>
-        <section class=" grid-container grid-x small-12 large-8 colorH">
-            <div class="card colorCard callout ">
+        <section class="grid-container grid-x small-12 large-8 colorH" id="Post" aria-label="Seccion de Articulos Post">
+            <div class="card colorCard callout">
                 <div class="card-section">
                     <h1>Pasta Bolognesa</h1>
                     <h6>Publicado: 15 de mayo 2018</h6>
@@ -116,7 +117,8 @@
                     </div>
                     <div class="media-object-section">
                         <h4>Ricardo M</h4>
-                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni, quam mollitia voluptatum in, animi suscipit tempora ea consequuntur non nulla vitae doloremque. Eius rerum, cum earum quae eveniet odio.</p>
+                        <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni, quam mollitia voluptatum in, animi suscipit
+                            tempora ea consequuntur non nulla vitae doloremque. Eius rerum, cum earum quae eveniet odio.</p>
                     </div>
                 </div><div class="media-object callout colorCard">
                 <div class="media-object-section">
@@ -124,7 +126,8 @@
                 </div>
                 <div class="media-object-section">
                     <h4>Ricardo M</h4>
-                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni, quam mollitia voluptatum in, animi suscipit tempora ea consequuntur non nulla vitae doloremque. Eius rerum, cum earum quae eveniet odio.</p>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Voluptas magni, quam mollitia voluptatum in, animi suscipit tempora
+                        ea consequuntur non nulla vitae doloremque. Eius rerum, cum earum quae eveniet odio.</p>
                 </div>
             </div>
             </div>
