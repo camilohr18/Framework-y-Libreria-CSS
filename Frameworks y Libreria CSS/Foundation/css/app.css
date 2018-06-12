@@ -42,10 +42,14 @@ body{
     background-color: transparent;
     color: #FFFFFF;
     margin: inherit;
+    border-radius: 10px;
 }
 ul{
     list-style-type: none;
 }
 a{
     color: #FFFFFF;
+}
+.avatar{
+    width: 70%;
 }
