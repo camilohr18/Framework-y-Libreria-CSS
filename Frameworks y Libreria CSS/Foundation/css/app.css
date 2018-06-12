@@ -1,0 +1,51 @@
+@font-face {
+    font-family: ahattomdemo;
+    src:url('../font/ahattomdemo.ttf.woff') format('woff');
+}
+h1{
+    font-family: ahattomdemo;
+    font-size: 5em;
+    margin: 0;
+}
+body{
+    background-image: url("../img/cocina.jpg");
+    background-repeat: no-repeat;
+    background-attachment: fixed;
+    background-size: cover;
+    color: #FFFFFF;
+}
+.colorH{
+    background-color: hsla(44, 43%, 51%, 0.8);
+    border-bottom: 1px solid hsla(44, 20%, 80%, 0.8);
+    color: #FFFFFF;
+}
+.colorH>h1, .colorH>p{
+    border-right: 1px solid hsla(44, 20%, 80%, 0.8);
+}
+.colorN{
+    background-color: hsla(44, 43%, 51%, 0.8);
+    border-right: 1px solid hsla(44, 20%, 80%, 0.8);
+    color: #FFFFFF;
+}
+.colorB{
+    background-color: hsla(90, 70%, 20%, 0.5);
+}
+.colorB:hover{
+    background-color: hsla(90, 90%, 40%, 0.9);
+}
+.colorimg{
+    background-color: transparent;
+    border: 0;
+    color: #FFFFFF;
+}
+.colorCard{
+    background-color: transparent;
+    color: #FFFFFF;
+    margin: inherit;
+}
+ul{
+    list-style-type: none;
+}
+a{
+    color: #FFFFFF;
+}

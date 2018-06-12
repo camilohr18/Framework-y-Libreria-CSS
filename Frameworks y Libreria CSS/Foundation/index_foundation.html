@@ -6,16 +6,138 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <link rel="stylesheet" href="css/foundation.css">
     <link rel="stylesheet" href="css/app.css">
+    <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.0.13/css/all.css" integrity="sha384-DNOHZ68U8hZfKXOrtjWvjxusGo9WQnrNx2sqG0tfsghAvtVlRW3tvkXWZh58N9jp" crossorigin="anonymous">
+
 </head>
 <body>
 <div class="grid-container">
     <header class="grid-x">
-        <div class="cell small4 large-4">
+        <div class="cell small4 large-4 colorH">
             <h1 class="text-center">Attraversiamo</h1>
-            <p class="text-right"><em>Probando el mundo en cada bocado</em></p>
+            <p class="text-right"><em>..probando el mundo en cada bocado...</em></p>
         </div>
-        <div class="cell small-8 large-8"></div>
+        <div class="cell small-8 large-8 colorH hide-for-small-only"></div>
     </header>
+    <div class="grid-x">
+        <aside class="large-4 grid-padding-x colorN small-12">
+            <div class=" grid-y cell small-12 large-12 colorimg">
+                <div class="cell large-4">
+                <div class="title-bar" data-responsive-toggle="menu" data-hide-for="large">
+                    <button class="menu-icon" type="button" data-toggle="menu"></button>
+                    <div class="title-bar-title">Menu</div>
+                </div>
+
+                <div class="vertical menu" id="menu">
+                    <div class="grid-y cell colorimg">
+                        <div class="input-group">
+                            <input type="text" placeholder="Buscar.." class="input-group-field" />
+                            <div class="input-group-button">
+                                <button type="submit" class="button colorB"><i class="fas fa-search"></i></button>
+                            </div>
+                        </div>
+                    </div>
+                    <button class="button colorB">Inicio</button>
+                    <button class="button colorB">Recetas</button>
+                    <button class="button colorB">Trucos de Cocina</button>
+                </div>
+                </div>
+            </div>
+            <div class="cell small-12 large-12 colorimg callout hide-for-small-only hide-for-medium-only align-self-top">
+                <p class="text-center">Favoritos</p>
+                <div class="grid-x">
+                    <div class="cell small-4 callout colorimg">
+                        <img src="img/comida1.jpg">
+                    </div>
+                    <div class="cell small-4 callout colorimg">
+                        <img src="img/comida2.jpg">
+                    </div>
+                    <div class="cell small-4 callout colorimg">
+                        <img src="img/comida1.jpg">
+                    </div>
+                </div>
+                <div class="grid-x">
+                    <div class="cell small-4 callout colorimg">
+                        <img src="img/comida1.jpg">
+                    </div>
+                    <div class="cell small-4 callout colorimg">
+                        <img src="img/comida2.jpg">
+                    </div>
+                    <div class="cell small-4 callout colorimg">
+                        <img src="img/comida1.jpg">
+                    </div>
+                </div>
+            </div>
+            <div class="cell small-12 colorimg hide-for-small-only hide-for-medium-only">
+                <p>Historial</p>
+                <ul>
+                    <li><a href="#">Visita 1</a></li>
+                    <li><a href="#">Visita 2</a></li>
+                    <li><a href="#">Visita 3</a></li>
+                    <li><a href="#">Visita 4</a></li>
+                    <li><a href="#">Visita 5</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                    <li><a href="#">Visita 6</a></li>
+                </ul>
+            </div>
+        </aside>
+        <section class=" grid-container grid-x small-12 large-8 colorH">
+            <div class="card colorCard callout ">
+                <div class="card-section">
+                    <h1>Pasta Bolognesa</h1>
+                    <h6>Publicado: 15 de mayo 2018</h6>
+                </div>
+                <img src="img/comida1.jpg" class="thumbnail">
+                <div class="card-section">
+                    <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam enim, vel pulvinar sem molestie in.
+                        Morbi vel iaculis libero, nec tincidunt diam. Donec rhoncus ut massa a placerat. Integer non euismod magna.
+                        Sed hendrerit turpis vitae massa ultrices scelerisque. Morbi eros lorem, sodales in nisi nec, posuere blandit est.
+                        Cras a nisi eget orci gravida fermentum. Phasellus ante odio, lacinia eu mollis at, euismod vel quam. Praesent imperdiet
+                        semper metus, at molestie neque ultricies non. Cras quis magna metus. Nulla eget ligula vestibulum, vestibulum massa eget,
+                        mattis mi. Praesent interdum eros quis faucibus pretium. Nulla facilisi. Morbi porttitor ornare ornare. Vestibulum sed turpis
+                        ultricies, imperdiet mi a, auctor orci.</p>
+                </div>
+                <div class="grid-y cell small-12 colorimg">
+                    <div class="input-group">
+                        <textarea placeholder="Comentarios.." class="input-group-field"></textarea>
+                        <div class="input-group-button">
+                            <button type="submit" class="button colorB">Enviar</button>
+                        </div>
+                    </div>
+                </div>
+            </div>
+                <div class="card colorCard callout ">
+                    <div class="card-section">
+                        <h1>Pasta Carbonara</h1>
+                        <h6>Publicado: 10 de Abril 2018</h6>
+                    </div>
+                    <img src="img/comida1.jpg" class="thumbnail">
+                    <div class="card-section">
+                        <p class="text-justify">Lorem ipsum dolor sit amet, consectetur adipiscing elit. Aliquam interdum diam enim, vel pulvinar sem molestie in.
+                            Morbi vel iaculis libero, nec tincidunt diam. Donec rhoncus ut massa a placerat. Integer non euismod magna.
+                            Sed hendrerit turpis vitae massa ultrices scelerisque. Morbi eros lorem, sodales in nisi nec, posuere blandit est.
+                            Cras a nisi eget orci gravida fermentum. Phasellus ante odio, lacinia eu mollis at, euismod vel quam. Praesent imperdiet
+                            semper metus, at molestie neque ultricies non. Cras quis magna metus. Nulla eget ligula vestibulum, vestibulum massa eget,
+                            mattis mi. Praesent interdum eros quis faucibus pretium. Nulla facilisi. Morbi porttitor ornare ornare. Vestibulum sed turpis
+                            ultricies, imperdiet mi a, auctor orci.</p>
+                    </div>
+                    <div class="grid-y cell small-12 colorimg">
+                        <div class="input-group">
+                            <textarea placeholder="Comentarios.." class="input-group-field"></textarea>
+                            <div class="input-group-button">
+                                <button type="submit" class="button colorB">Enviar</button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+    </div>
 </div>
 
 
